@@ -92,7 +92,7 @@ var ReactSiema = function (_Component) {
     }, {
         key: 'componentWillUnmount',
         value: function componentWillUnmount() {
-            window.removeEventListener(this.onResize);
+            window.removeEventListener('resize', this.onResize);
         }
     }, {
         key: 'init',
