@@ -333,7 +333,7 @@ ReactSiema.propTypes = {
     resizeDebounce: _react.PropTypes.number,
     duration: _react.PropTypes.number,
     easing: _react.PropTypes.string,
-    perPage: _react.PropTypes.number,
+    perPage: _react.PropTypes.any,
     startIndex: _react.PropTypes.number,
     draggable: _react.PropTypes.bool,
     threshold: _react.PropTypes.number,
