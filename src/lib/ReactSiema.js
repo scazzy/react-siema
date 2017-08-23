@@ -7,7 +7,7 @@ class ReactSiema extends Component {
         resizeDebounce: PropTypes.number,
         duration: PropTypes.number,
         easing: PropTypes.string,
-        perPage: PropTypes.number,
+        perPage: PropTypes.any,
         startIndex: PropTypes.number,
         draggable: PropTypes.bool,
         threshold: PropTypes.number,
