@@ -5,10 +5,12 @@ Object.defineProperty(exports, "__esModule", {
 });
 
 exports.default = function () {
-    var transform = document.documentElement.style.transform;
+    if(typeof document !== 'undefined') {
+        var transform = document.documentElement.style.transform;
 
-    if (typeof transform === 'string') {
-        return 'transform';
+        if (typeof transform === 'string') {
+            return 'transform';
+        }
     }
     return 'WebkitTransform';
 }();
